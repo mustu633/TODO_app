@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: darkorange;
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: gray;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.row{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row input{
+    width: 65%;
+    padding: 15px 35px 15px 35px;
+    border: none;
+    border-radius: 8px;
+}
+button{
+    width: 25%;
+    padding: 15px 10px 15px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #002765;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.dltBtn {
+    background-color: red;
+    padding: 8px 10px 8px 10px;
+    font-size: 16px;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notes-area{
+    width: 100%;
+    height: auto;
+    /* background-color: goldenrod; */
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.notes{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border-radius: 12px;
+}
+.notes p{
+    font-size: 18px;
+}
